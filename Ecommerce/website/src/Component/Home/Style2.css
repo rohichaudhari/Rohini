@@ -1,0 +1,139 @@
+.mapdata:hover {
+    z-index: 9;
+}
+
+.card {
+    position: relative;
+    opacity: 1;
+}
+
+.sec-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s ease-in-out; 
+    cursor: pointer;
+}
+
+ .card:hover .sec-img {
+    opacity: 1;
+} 
+
+ .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+} 
+
+.circle-1
+{
+    display: block;
+    height: 16px !important;
+    width: 16px !important;
+    background-color: skyblue;
+    border-radius: 50%;
+    border: 3px solid white;
+   
+}
+.circle-2
+{
+    display: block;
+    height: 16px !important;
+    width: 16px !important;
+    background-color: skyblue;
+    border-radius: 50%;
+    border: 3px solid white;
+   
+}
+.circle-3{
+    display: block;
+    height: 16px !important;
+    width: 16px !important;
+    background-color: skyblue;
+    border-radius: 50%;
+    border: 3px solid white;
+ 
+}
+.circle-4 {
+    display: block;
+    height: 16px !important;
+    width: 16px !important;
+    background-color: skyblue;
+    border-radius: 50%;
+    border: 3px solid white;
+   
+}
+
+.circle-1 {
+    background-color: #d51243;
+}
+
+.circle-2 {
+    background-color: orange;
+}
+
+.circle-3 {
+    background-color: purple;
+}
+
+.card:hover .dot {
+    opacity: 1 !important;
+}
+.star ul li a i {
+    color: #d51243;
+}
+
+
+ul li span {
+    font-size: 10px;
+}
+
+.product-bg {
+    position: absolute;
+    top: calc(150px);
+    margin-left: 50px;
+    text-align: center;
+}
+
+.product-action {
+    background-color: white;
+    display: inline-block;
+    padding: 0 8px;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .04);
+    transform: translateY(20px);
+    transition: transform .5s ease 0s, background-color .5s ease 0s, opacity .4s ease 0s;
+}
+
+.product-bg a {
+    margin: 0 10px;
+    font-size: 16px;
+    padding: 14px 0;
+    display: inline-block;
+    line-height: 1;
+    color: #999;
+}
+
+.product-bg a:hover i{
+   
+    color: black !important;
+    transition: all 0.3s linear;
+
+}
+
+@media (max-width: 1500px) {
+    .map{
+        width: 100%!important;
+        display: flex !important;
+        justify-content: center !important;
+        align-self:center;
+        flex-wrap: wrap !important;
+    }
+  
+}
+
+@media (max-width:576px) {
+    .w-\[19rem\] {
+        max-width: 400px;
+        width:auto;
+    }
+}

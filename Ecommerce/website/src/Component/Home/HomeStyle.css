@@ -1,0 +1,39 @@
+@media (max-width:768px) {
+    .Header .main-search{
+        display: none;
+    }
+    .shop .shop3{
+        display:none;
+    }
+    /* .swip{
+        display: block;
+        width: 100vw;
+    } */
+   
+   
+        
+    .account{
+        display: none;
+    }
+   
+  
+    
+   
+   
+   
+
+}
+@media (max-width:1200px) {
+    .Header .main-search{
+        display: none;
+    }
+    .shop .shop3{
+        display:none;
+    }
+    .navbar{
+        display: none;
+    }
+    
+}
+   
+

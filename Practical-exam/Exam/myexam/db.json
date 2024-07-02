@@ -1,0 +1,20 @@
+{
+  "person": [
+    {
+      "id": "2",
+      "name": "Ragini",
+      "lastname": "chaudhari",
+      "email": "rohini@gmail.com",
+      "age": "27",
+      "city": "surat"
+    },
+    {
+      "id": "3",
+      "name": "Ripal",
+      "lastname": "chaudhari",
+      "email": "rohini@gmail.com",
+      "age": "29",
+      "city": "surat"
+    }
+  ]
+}
